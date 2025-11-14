@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>生日快樂</title>
+
+  <style>
+    /* 整個畫面置中（水平 + 垂直） */
+    body {
+      background-color: #fff5f8; /* 柔和背景色 */
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center; 
+      align-items: center;      
+      font-family: "Noto Serif TC", serif;
+      overflow: hidden;
+    }
+
+    /* 信件區塊 */
+    .letter {
+      background: white;
+      padding: 40px 60px;
+      border-radius: 15px;
+      box-shadow: 0 0 30px rgba(0,0,0,0.1);
+      max-width: 600px;
+      line-height: 1.8;
+      text-align: center; /* 文字置中 */
+      
+      /* 淡入動畫 */
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeIn 1.5s forwards;
+    }
+
+    /* 動畫效果 */
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* 標題效果 */
+    h1 {
+      font-size: 2em;
+      color: #ff4d6d;
+      margin-bottom: 20px;
+    }
+  </style>
+
+</head>
+<body>
+  <div class="letter">
+    <h1>生日快樂</h1>
+    <p>
+      哇妳好棒~<br>
+      妳把我的謎題破解了ヾ(●゜▽゜●)♡<br>
+      雖然對妳來說應該挺簡單的<br>
+      但妳很棒ε٩(๑> ₃ <)۶з<br><br>
+      其實我也嘗試過手寫信✉️<br>
+      但真的太醜了連我自己都看不懂(´-ι_-｀)<br>
+      所以我決定用網站來寫(*‘ v`*)<br>
+      說實話我也沒想過會有機會跟你重新聊上(,,・ω・,,)<br>
+      很開心 💗<br><br>
+      國三那時候 我就覺得妳這個人<br>
+      其實不像表面上的那樣安靜(っ・Д・)っ<br>
+      還是很活潑可愛的(*´∀`)~♥<br>
+      而且也是為數不多對真的有在用心待我的(つд⊂)<br>
+      所以我以一直很喜歡妳這個人(　ﾟ∀ﾟ)つ≡≡≡♡♡♡)`ν゜)ｸﾞｼｬ<br>
+      這也是我為什麼會認為妳的感受比我的感受重要<br><br>
+      雖然後來沒連絡一段時間 但那也只是我不敢去打擾妳而已😔<br>
+      我一直以為我們沒有很熟(｡ŏ_ŏ)<br>
+      但我一直都記著妳<br>
+      但也因為沒聯絡 我錯過妳很多故事(´;ω;`)<br>
+      以前的路我沒有陪你走過 但以後會的<br>
+      希望妳也記得 我也一直在<br>
+      如果受了委屈 也可以告訴我 我會聽的<br><br>
+    </p>
+  </div>
+</body>
+</html>
